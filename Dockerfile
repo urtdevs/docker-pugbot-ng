@@ -1,7 +1,7 @@
 FROM dock0/arch
 MAINTAINER Jon Chen <bsd@voltaire.sh>
 
-RUN pacman -Syu python python-pip
+RUN pacman -Syu --no-confirm --needed python python-pip
 
 ADD ./pugbot-ng/requirements.txt /srv/pugbot-ng/requirements.txt
 ADD ./pugbot-ng/pugbot-ng.py /srv/pugbot-ng/pugbot-ng.py
