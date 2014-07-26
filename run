@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /bin/python3 /srv/pugbot-ng/pugbot-ng.py
