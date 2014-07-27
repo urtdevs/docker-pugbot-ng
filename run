@@ -1,4 +1,3 @@
 #!/bin/sh
 
-cd /srv/pugbot-ng
-exec /bin/python3 /srv/pugbot-ng/pugbot_ng.py 2>&1
+exec /usr/local/bin/pugbot_ng 2>&1
