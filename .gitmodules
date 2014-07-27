@@ -1,3 +1,3 @@
-[submodule "pugbot-ng"]
-	path = pugbot-ng
-	url = https://github.com/clearskies/pugbot-ng.git
+[submodule "pugbot_ng"]
+	path = pugbot_ng
+	url = git@github.com:clearskies/pugbot_ng.git
