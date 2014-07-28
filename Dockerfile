@@ -7,4 +7,5 @@ ADD ./config.json /etc/pugbot_ng.json
 
 RUN /usr/bin/pip3 install pugbot_ng
 
+ADD run.py /usr/local/bin/run.py
 ADD run /service/pugbot_ng/run
