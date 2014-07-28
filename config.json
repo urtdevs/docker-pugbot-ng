@@ -31,7 +31,11 @@
         "uptown"
     ],
     "nick": "pugbot-ng",
-    "owner": "kbar",
+    "owner": [
+        "kbar",
+        "clearskies",
+        "zod_"
+    ],
     "port": 6667,
     "prefixes": "!>@.",
     "server": "irc.quakenet.org",
